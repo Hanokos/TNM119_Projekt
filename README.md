@@ -1,0 +1,1 @@
+You can either run the code and it will pip install the librarys needed to work. then when it is finished. You rerun the code and it should work. Otherwise you could manually load in the required once from teh requirmentes.txt
