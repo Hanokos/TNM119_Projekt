@@ -1,0 +1,5 @@
+pandas>=2.0.0
+scikit-learn>=1.0.0
+nltk>=3.0.0
+imbalanced-learn>=0.10.0
+xgboost>=2.0.0
