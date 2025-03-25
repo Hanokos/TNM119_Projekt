@@ -38,7 +38,7 @@ install_requirements()
 nltk.download('stopwords')
 nltk.download('wordnet')
 
-# Preprocessing function (same as before)
+# Preprocessing function (same as in our main.py)
 def preprocess_text(text):
     # Convert to lowercase
     text = text.lower()
