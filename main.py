@@ -15,6 +15,9 @@ import matplotlib.pyplot as plt
 import shap
 from sklearn.inspection import permutation_importance
 
+# This code makes the two pkl files if they don't exist
+# IF they exist they reuse them instead.
+
 # Step 1: Check and install required libraries
 def install_requirements():
     try:
