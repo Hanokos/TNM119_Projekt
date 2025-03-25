@@ -15,18 +15,17 @@ pip install -r requirements.txt
 ```
 
 ## Main Script: `main.py`
-- The main script of the project is `main.py`. This file is used to:
+The main script of the project is `main.py`. This file is used to:.
 - Calculate the accuracy of the models.
 - Generate the pie chart in PNG format for model evaluation.
-After running this code in `Visual Studio code`, the script will print the model's accuracy in the terminal and save the pie chart as a PNG image.
+##### After running this code in `Visual Studio code`, the script will print the model's accuracy in the terminal and save the pie chart as a PNG image.
 
 
 ## Demo Script: `demo.py`
 If you would like to test the model on your custom reviews, use the `demo.py` script. It allows you to input a review through a .txt file (e.g., `example.txt`) and get a predicted rating.
 - 1: Create a .txt file with your review (e.g., example.txt):
-- 2: Run the demo script:
-Test this with our premade `example.txt`
-After running this code in `Visual Studio code`, This will output a predicted rating based on the review in `example.txt`.
+- 2: Run the demo script, you can test this with our premade `example.txt`
+###### After running this code in `Visual Studio code`, This will output a predicted rating based on the review in `example.txt`.
   
   
 ## Required Files
