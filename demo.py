@@ -10,6 +10,12 @@ import nltk
 from sklearn.feature_extraction.text import TfidfVectorizer
 from xgboost import XGBClassifier
 
+# This code is made to try your review to see if it can predict it. make your txt file e.g (my.txt) and then type something like this in your txt file:
+#  Small noisy and no service.......even by "European Standards"...,  ,1
+# The ", ,1" symbolise your rating. so here I rated it a 1 star.
+
+
+
 # Check and install required libraries
 def install_requirements():
     try:
