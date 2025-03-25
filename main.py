@@ -17,6 +17,8 @@ from sklearn.inspection import permutation_importance
 
 # This code makes the two pkl files if they don't exist
 # IF they exist they reuse them instead.
+# When successfully run this code will show the accuracy of the models and also its prediction in prediciton3.txt that it make,
+# as well as two png files to show its accuracy in a piechart and global features weights png
 
 # Step 1: Check and install required libraries
 def install_requirements():
