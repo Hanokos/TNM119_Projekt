@@ -18,15 +18,15 @@ pip install -r requirements.txt
 - The main script of the project is `main.py`. This file is used to:
 - Calculate the accuracy of the models.
 - Generate the pie chart in PNG format for model evaluation.
-### After running this code in `Visual Studio code`, the script will print the model's accuracy in the terminal and save the pie chart as a PNG image.
+After running this code in `Visual Studio code`, the script will print the model's accuracy in the terminal and save the pie chart as a PNG image.
 
 
 ## Demo Script: `demo.py`
-### If you would like to test the model on your custom reviews, use the `demo.py` script. It allows you to input a review through a .txt file (e.g., `example.txt`) and get a predicted rating.
+If you would like to test the model on your custom reviews, use the `demo.py` script. It allows you to input a review through a .txt file (e.g., `example.txt`) and get a predicted rating.
 - 1: Create a .txt file with your review (e.g., example.txt):
 - 2: Run the demo script:
-### Test this with our premade `example.txt`
-### After running this code in `Visual Studio code`, This will output a predicted rating based on the review in `example.txt`.
+Test this with our premade `example.txt`
+After running this code in `Visual Studio code`, This will output a predicted rating based on the review in `example.txt`.
   
   
 ## Required Files
@@ -118,8 +118,8 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 ---
 
 ## Summary:
-📌 **main.py** for model accuracy and evaluation.
-📌 **demo.py** for testing custom reviews.
+📌 **main.py** for model accuracy and evaluation
+📌 **demo.py** for testing custom reviews
 📌 **CSV = Training data** (text + star ratings)  
 📌 **Cleaned and split** for AI  
 📌 **Model + Vectorizer** turn text into predictions  
